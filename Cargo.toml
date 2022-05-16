@@ -1,0 +1,13 @@
+[package]
+name = "projectile_inteception"
+version = "0.2.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+#I left these unused libraries within the cargo file to show how rust imports outside libraries from https://crates.io/
+#I planned to used two float for a double float, but ended up using the angle increment method instead.
+#I could still use two float, but twofloat displays kinda weird with their type
+[dependencies]
+twofloat = "0.4.1"
+serde = "1.0.136"
